@@ -1,0 +1,1644 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"end",
+				"endlocation"
+			],
+			[
+				"a",
+				"amount"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"b",
+				"brand"
+			],
+			[
+				"sta",
+				"startmeal"
+			],
+			[
+				"star",
+				"startamount"
+			],
+			[
+				"e",
+				"endbrand"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"tota",
+				"total_price"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"sing",
+				"single_total"
+			],
+			[
+				"ne",
+				"new_amount"
+			],
+			[
+				"bid",
+				"bid_amount"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"ge",
+				"get"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"sh",
+				"share_string"
+			],
+			[
+				"q",
+				"quote_plus"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"c",
+				"cinema"
+			],
+			[
+				"d",
+				"detail"
+			],
+			[
+				"addr",
+				"address_list"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"deta",
+				"detail"
+			],
+			[
+				"O",
+				"or"
+			],
+			[
+				"f",
+				"forms"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"de",
+				"detail"
+			],
+			[
+				"p",
+				"phone_number"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"ls",
+				"last_name"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"cre",
+				"create_user"
+			],
+			[
+				"sy",
+				"syn_list"
+			],
+			[
+				"op",
+				"opti1"
+			],
+			[
+				"co",
+				"connect"
+			],
+			[
+				"que",
+				"ques_count"
+			],
+			[
+				"rad",
+				"radioButton_43"
+			],
+			[
+				"is",
+				"isChecked"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"ans",
+				"ans_list"
+			],
+			[
+				"en",
+				"englishdrilleruserans"
+			],
+			[
+				"conne",
+				"connect"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pu",
+				"pull-right"
+			],
+			[
+				"Cele",
+				"CelebrityTest"
+			],
+			[
+				"tr",
+				"treat_description"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"detail",
+				"detail2"
+			],
+			[
+				"det",
+				"detail2"
+			],
+			[
+				"E",
+				"EmailMultiAlternatives"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"fr",
+				"fromaddr"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"border-t",
+				"border-top-right-radius"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"MO",
+				"Model"
+			],
+			[
+				"com",
+				"commit"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"text",
+				"textEdit_8"
+			],
+			[
+				"slu",
+				"SlugField"
+			],
+			[
+				"m",
+				"models"
+			],
+			[
+				"Re",
+				"Restaurant"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"si",
+				"Singles"
+			],
+			[
+				"U",
+				"UserSalon"
+			],
+			[
+				"salo",
+				"salon_form"
+			],
+			[
+				"sa",
+				"save"
+			],
+			[
+				"au",
+				"auto_now_add"
+			],
+			[
+				"qs",
+				"qs_sum"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"View",
+				"view_cart"
+			],
+			[
+				"all",
+				"all_product"
+			],
+			[
+				"curr",
+				"current_cart"
+			],
+			[
+				"Uer",
+				"UserCart"
+			],
+			[
+				"User",
+				"UserCart"
+			],
+			[
+				"cate",
+				"category_slug"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"sl",
+				"slugify"
+			],
+			[
+				"M",
+				"ModelAdmin"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"col-",
+				"col-sm-6"
+			],
+			[
+				"colo",
+				"color-orange"
+			],
+			[
+				"th",
+				"img-thumbnail"
+			],
+			[
+				"Da",
+				"DateField"
+			],
+			[
+				"Ci",
+				"CinemasAdmin"
+			],
+			[
+				"SALON",
+				"salon"
+			],
+			[
+				"Salo",
+				"salons"
+			],
+			[
+				"gen",
+				"gender_choice"
+			],
+			[
+				"Res",
+				"Restaurant"
+			],
+			[
+				"res",
+				"restaurant"
+			],
+			[
+				"sal",
+				"salon2"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"bt",
+				"btn-lg"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"id",
+				"id_user"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"connect",
+				"connection"
+			],
+			[
+				"radi",
+				"radioButton_20"
+			],
+			[
+				"set",
+				"setChecked"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index/views.py",
+			"settings":
+			{
+				"buffer_size": 214,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 3089,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index/urls.py",
+			"settings":
+			{
+				"buffer_size": 224,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/about.html",
+			"settings":
+			{
+				"buffer_size": 3331,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 6492,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 5431,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/BUDESCODE/Documents/coding/projects/Abbey/education/index.html",
+			"settings":
+			{
+				"buffer_size": 34009,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/account/login.html",
+			"settings":
+			{
+				"buffer_size": 621,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/account/register.html",
+			"settings":
+			{
+				"buffer_size": 592,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/account/registration_success.html",
+			"settings":
+			{
+				"buffer_size": 955,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/account/logout.html",
+			"settings":
+			{
+				"buffer_size": 590,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "account/models.py",
+			"settings":
+			{
+				"buffer_size": 346,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "account/forms.py",
+			"settings":
+			{
+				"buffer_size": 1961,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "account/views.py",
+			"settings":
+			{
+				"buffer_size": 1952,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/settings.py",
+			"settings":
+			{
+				"buffer_size": 3438,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/urls.py",
+			"settings":
+			{
+				"buffer_size": 1100,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "mark",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				"Convert Case: Lower Case"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 49.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/account",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/index",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/project",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates"
+	],
+	"file_history":
+	[
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/home/styles/main_styles.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/css/bootstrap.min.css",
+		"/C/Users/BUDESCODE/Untitled.ipynb",
+		"/C/Users/BUDESCODE/Documents/coding/projects/MyIonicProject/src/index.html",
+		"/C/Users/omonbude/Documents/coding/project/jb app/chuka/update_db.py",
+		"/C/Users/omonbude/Documents/coding/project/u-driller/update_db.py",
+		"/C/Users/omonbude/Documents/coding/project/unisales/project/website/post/api/request_post_form.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/account/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/catalog/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/base.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/rough5.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/businessdetail.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/rough3.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/account/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/project2.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/project.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/catalog/models.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/cart/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/cart/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/cart/forms.py",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/website/benatex/benatex/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/account/models.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/atreat4u/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/account/forms.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/account/profile.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/account/edit_profile.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/atreat4u/settings.py",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Bernatex/New folder/website/benatex/benatex/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/website/benatex/benatex/settings.py",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Bernatex/New folder/website/benatex/benatex/settings.py",
+		"/E/gt",
+		"/C/Users/omonbude/Documents/coding/PyQt/PyQt5_gpl-5.11.2/examples/graphicsview/embeddeddialogs/embeddeddialogs.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/project3.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/movie.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/cart/views.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/test.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/test2.py",
+		"/E/login.py",
+		"/C/Users/omonbude/Documents/test.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/account/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/account/models.py",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Bernatex/index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/rough2.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/startbootstrap-heroic-features-master/index.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/index.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/style.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Bernatex/css/style.css",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/catalog/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/account/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/school management/text.txt",
+		"/C/Users/omonbude/Documents/coding/project/a treat/magnews/index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/Index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/account/forms.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/account/admin.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/atreat/settings.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/rough5.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/rough.txt",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/change_password_email.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/change_password_email.txt",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/template/index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/change_password_success.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/change_password_code.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/change_password.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/reset_password_email2.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/rough.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/static/css/news.css",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/static/css/news_responsive.css",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/static/css/main_style.css",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/base.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/magnews/css/style.css",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/home.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/meal-detail.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/catalog/models.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/catalog/admin.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/magnews/index.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/jcarousel.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/flexslider.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/custom-fonts.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/cslider.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/bootstrap-responsive.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/bootstrap.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Flattern/css/animate.css",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Gomez/index.html",
+		"/E/New Text Document.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/components.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/careers.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/contact.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/agsmeis.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/services.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/index.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/register.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/Serenity/portfolio-detail.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/change_password_confirm.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/registration_success.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/rough3.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/reset_password_complete.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/cinemas_detail.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/contact.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/about.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/sign_up.html",
+		"/E/authenticate_section/forms.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/reset_password.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/reset_password_confirm.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/reset_password_done.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/reset_password_email.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/templates/template/corlate-free-responsive-business-html-template/index.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/templates/template/corlate-free-responsive-business-html-template/js/index.html",
+		"/C/Users/omonbude/Documents/bootstrap1/text-to-speech.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/tt.html",
+		"/C/Users/omonbude/Documents/bootstrap1/convert-tss.py",
+		"/C/Users/omonbude/Documents/bootstrap1/js/test.js",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/account/login.html",
+		"/E/SNISHER/settings.py",
+		"/E/SNISHER/views.py",
+		"/E/authenticate_section/views.py",
+		"/E/authenticate_section/email_auth.py",
+		"/E/authenticate_section/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/b use/index.html",
+		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/b use/css/app.css",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/order/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-events.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-detail.html",
+		"/C/Users/omonbude/Documents/bootstrap1/new 1.html",
+		"/C/Users/omonbude/Documents/b use/index.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/catalog/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/cart/models.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/Users/jmitch/Dropbox/cfe/v2/src",
+			"/Users/cfe/Dev/djangular/client/src/app",
+			"/Users/jmitch/Desktop/ecommerce-2/src",
+			"/Users/jmitch/Dropbox/projects/kpj",
+			"/Users/jmitch/Dropbox/projects/kpj/kpj",
+			"/Users/jmitch/Dropbox/projects/",
+			"/Users/jmitch/Dropbox/projects/kpj/kpj",
+			"<open files>",
+			"/Users/jmitch/Dropbox/projects/kpj/kpj",
+			"/Users/jmitch/Dropbox/projects/kpj",
+			"/Users/jmitch/Dropbox/cfe/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"abo",
+			"sta",
+			"static",
+			"goals",
+			"footer",
+			"our bl",
+			"our bl'",
+			"our b",
+			"out b",
+			"fa fa",
+			"fa",
+			"caret",
+			"<hr",
+			"hr",
+			"logo",
+			"Top p",
+			"Top",
+			"late",
+			"we en",
+			"we a",
+			"we",
+			"fann",
+			"become",
+			"not y",
+			"upc",
+			"popular c",
+			"popu",
+			"img",
+			"banner",
+			"backg",
+			"back",
+			"temp",
+			"cinema_location",
+			"sche",
+			"cinemas_details",
+			"salon",
+			"well",
+			"cinema_",
+			"movie",
+			"well",
+			"tv",
+			"well",
+			"h: 7",
+			": 7",
+			"style",
+			"grid_sorting_button",
+			".grid_sorting_button.active",
+			"top t",
+			"top",
+			"top t",
+			"{{t",
+			"cart",
+			"2",
+			"processor",
+			"process",
+			"logout",
+			"auth",
+			"login",
+			"authen",
+			"login",
+			"email",
+			"auth",
+			"login",
+			"def log",
+			"login",
+			"super",
+			"img",
+			"exists",
+			"exist",
+			"slugify",
+			"select",
+			"cname",
+			"request.post",
+			"with",
+			"doesnot",
+			"user.ob",
+			"user",
+			"location",
+			"add_meal_cart",
+			"form",
+			"img",
+			"newsletter",
+			"\t\t\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-search\" aria-hidden=\"true\"></i></a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-user\" aria-hidden=\"true\"></i></a></li>",
+			"logo_container",
+			"img",
+			"logo_container",
+			"coloshop",
+			"img",
+			"atreat4u",
+			"add_to_cart_button",
+			"product-item",
+			"product-grid",
+			"about",
+			"CART",
+			"myproducts",
+			"payment",
+			"singles_price",
+			"singles",
+			"singledd",
+			"total",
+			"single",
+			"myproducts",
+			"you bid",
+			"music",
+			"checkout",
+			"music",
+			"celeb",
+			"json",
+			"click",
+			"add_meal_cart",
+			"request.post",
+			"url",
+			"Create",
+			"mobile",
+			"account",
+			"pdf",
+			"myprod",
+			"celeb",
+			"checkout",
+			"payment",
+			"order",
+			"view_cart",
+			"payment",
+			"MusicBidForm",
+			"music_details",
+			"music",
+			"cbid",
+			"false"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"/static/ang/assets/",
+			".cfe-load-comments",
+			"jmitch=#",
+			"'",
+			"ecommerce2",
+			"Control Guidance Solutions, LLC",
+			"class=\"fa fa-check fa-2x\"",
+			"img/apple-touch-icon-152.png",
+			"{})",
+			"render(request,",
+			"render(",
+			")",
+			"render(request,",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1546,
+								1546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3331,
+								3312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 886.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1946,
+								1946
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 647.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3093,
+								2972
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 906.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/BUDESCODE/Documents/coding/projects/Abbey/education/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29159,
+								25911
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/account/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								96
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/account/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/account/registration_success.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 35.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/account/logout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "account/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "account/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1491,
+								1283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 415.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "account/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1003,
+								1003
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "project/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3438,
+								3438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "project/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 508.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "myproject.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"atreat\\templates\\index.html"
+			],
+			[
+				"email",
+				"templates/team/email_instructions.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

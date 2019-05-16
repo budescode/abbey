@@ -1,0 +1,31 @@
+{%  extends "base.html" %}
+{% block body %}
+<title>  Registration Successful</title>
+
+
+<section class="banner-area relative" id="home">
+	<div class="overlay overlay-bg"></div>	
+	<div class="container">
+		<div class="row fullscreen d-flex align-items-center justify-content-between">
+			<div class=" col-md-6 offset-md-3">
+
+				<hr>
+				<center><h1 style="font-family: 'black_jackregular';"><i class="fa fa-paper-plane" aria-hidden="true" style="color: orange"></i>&nbsp;<span style="color: white;">Registration Successful</span></h1></center><br>
+				<hr>
+				<p>
+				<center><p>Click on the button below to login</p></center>
+				<a href="{% url 'account:login' %}"><button type="button" class="btn btn-md btn-block" style="background-color: rgb(247, 99, 27); color: white;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;Login</button></a>
+
+				</p>
+				<br>
+				<hr>
+
+			</div>										
+		</div>
+	</div>					
+</section>
+
+
+
+
+{% endblock %}

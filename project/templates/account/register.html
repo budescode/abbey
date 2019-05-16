@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block body %}
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">
+	<div class="overlay overlay-bg"></div>	
+	<div class="container">
+		<div class="row fullscreen d-flex align-items-center justify-content-between">
+			<div class=" col-md-6 offset-md-3">
+			<form method="post">
+					{% csrf_token %}
+					{{form|crispy}}
+
+				<br>
+					<button type="submit" class="btn btn-primary ">Register</button>
+				</form>	
+				
+			</div>										
+		</div>
+	</div>					
+</section>
+<!-- End banner Area -->
+
+{% endblock %}

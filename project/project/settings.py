@@ -25,7 +25,8 @@ SECRET_KEY = '(*u%!k3)dz9kmb)@xly%+s@-#b^obi(6+&_%vp9tcx5jwm_%p_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jacode4luv.pythonanywhere.com']
 
 
 # Application definition
@@ -123,9 +124,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
+STATIC_ROOT = '/home/jacode4luv/abbey/project/static'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 

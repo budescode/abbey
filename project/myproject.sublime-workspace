@@ -529,15 +529,6 @@
 			}
 		},
 		{
-			"file": "templates/contact.html",
-			"settings":
-			{
-				"buffer_size": 3089,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index/urls.py",
 			"settings":
 			{
@@ -547,38 +538,31 @@
 			}
 		},
 		{
-			"file": "templates/about.html",
+			"file": "templates/index.html",
 			"settings":
 			{
-				"buffer_size": 3331,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/base.html",
-			"settings":
-			{
-				"buffer_size": 6492,
+				"buffer_size": 7596,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/index.html",
+			"file": "static/css/main.css",
 			"settings":
 			{
-				"buffer_size": 5431,
+				"buffer_size": 8658,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "\t<!DOCTYPE html>\n\t<html lang=\"zxx\" class=\"no-js\">\n\t<head>\n\t\t<!-- Mobile Specific Meta -->\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\t\t<!-- Favicon-->\n\t\t<link rel=\"shortcut icon\" href=\"img/fav.png\">\n\t\t<!-- Author Meta -->\n\t\t<meta name=\"author\" content=\"colorlib\">\n\t\t<!-- Meta Description -->\n\t\t<meta name=\"description\" content=\"\">\n\t\t<!-- Meta Keyword -->\n\t\t<meta name=\"keywords\" content=\"\">\n\t\t<!-- meta character set -->\n\t\t<meta charset=\"UTF-8\">\n\t\t<!-- Site Title -->\n\t\t<title>Education</title>\n\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700\" rel=\"stylesheet\"> \n\t\t\t<!--\n\t\t\tCSS\n\t\t\t============================================= -->\n\t\t\t<link rel=\"stylesheet\" href=\"css/linearicons.css\">\n\t\t\t<link rel=\"stylesheet\" href=\"css/font-awesome.min.css\">\n\t\t\t<link rel=\"stylesheet\" href=\"css/bootstrap.css\">\n\t\t\t<link rel=\"stylesheet\" href=\"css/magnific-popup.css\">\n\t\t\t<link rel=\"stylesheet\" href=\"css/nice-select.css\">\t\t\t\t\t\t\t\n\t\t\t<link rel=\"stylesheet\" href=\"css/animate.min.css\">\n\t\t\t<link rel=\"stylesheet\" href=\"css/owl.carousel.css\">\t\t\t\n\t\t\t<link rel=\"stylesheet\" href=\"css/jquery-ui.css\">\t\t\t\n\t\t\t<link rel=\"stylesheet\" href=\"css/main.css\">\n\t\t</head>\n\t\t<body>\t\n\t\t  <header id=\"header\" id=\"home\">\n\t  \t\t<div class=\"header-top\">\n\t  \t\t\t<div class=\"container\">\n\t\t\t  \t\t<div class=\"row\">\n\t\t\t  \t\t\t<div class=\"col-lg-6 col-sm-6 col-8 header-top-left no-padding\">\n\t\t\t  \t\t\t\t<ul>\n\t\t\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-dribbble\"></i></a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-behance\"></i></a></li>\n\t\t\t  \t\t\t\t</ul>\t\t\t\n\t\t\t  \t\t\t</div>\n\t\t\t  \t\t\t<div class=\"col-lg-6 col-sm-6 col-4 header-top-right no-padding\">\n\t\t\t  \t\t\t\t<a href=\"tel:+953 012 3654 896\"><span class=\"lnr lnr-phone-handset\"></span> <span class=\"text\">+953 012 3654 896</span></a>\n\t\t\t  \t\t\t\t<a href=\"mailto:support@colorlib.com\"><span class=\"lnr lnr-envelope\"></span> <span class=\"text\">support@colorlib.com</span></a>\t\t\t\n\t\t\t  \t\t\t</div>\n\t\t\t  \t\t</div>\t\t\t  \t\t\t\t\t\n\t  \t\t\t</div>\n\t\t\t</div>\n\t\t    <div class=\"container main-menu\">\n\t\t    \t<div class=\"row align-items-center justify-content-between d-flex\">\n\t\t\t      <div id=\"logo\">\n\t\t\t        <a href=\"index.html\"><img src=\"img/logo.png\" alt=\"\" title=\"\" /></a>\n\t\t\t      </div>\n\t\t\t      <nav id=\"nav-menu-container\">\n\t\t\t        <ul class=\"nav-menu\">\n\t\t\t          <li><a href=\"index.html\">Home</a></li>\n\t\t\t          <li><a href=\"about.html\">About</a></li>\n\t\t\t          <li><a href=\"courses.html\">Courses</a></li>\n\t\t\t          <li><a href=\"events.html\">Events</a></li>\n\t\t\t          <li><a href=\"gallery.html\">Gallery</a></li>\n\t\t\t          <li class=\"menu-has-children\"><a href=\"\">Blog</a>\n\t\t\t            <ul>\n\t\t\t              <li><a href=\"blog-home.html\">Blog Home</a></li>\n\t\t\t              <li><a href=\"blog-single.html\">Blog Single</a></li>\n\t\t\t            </ul>\n\t\t\t          </li>\t\n\t\t\t          <li class=\"menu-has-children\"><a href=\"\">Pages</a>\n\t\t\t            <ul>\n\t\t              \t\t<li><a href=\"course-details.html\">Course Details</a></li>\t\t\n\t\t              \t\t<li><a href=\"event-details.html\">Event Details</a></li>\t\t\n\t\t\t                <li><a href=\"elements.html\">Elements</a></li>\n\t\t\t\t\t          <li class=\"menu-has-children\"><a href=\"\">Level 2 </a>\n\t\t\t\t\t            <ul>\n\t\t\t\t\t              <li><a href=\"#\">Item One</a></li>\n\t\t\t\t\t              <li><a href=\"#\">Item Two</a></li>\n\t\t\t\t\t            </ul>\n\t\t\t\t\t          </li>\t\t\t\t\t                \t\t\n\t\t\t            </ul>\n\t\t\t          </li>\t\t\t\t\t          \t\t\t\t\t          \t\t          \n\t\t\t          <li><a href=\"contact.html\">Contact</a></li>\n\t\t\t        </ul>\n\t\t\t      </nav><!-- #nav-menu-container -->\t\t    \t\t\n\t\t    \t</div>\n\t\t    </div>\n\t\t  </header><!-- #header -->\n\n\t\t\t<!-- start banner Area -->\n\t\t\t<section class=\"banner-area relative\" id=\"home\">\n\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row fullscreen d-flex align-items-center justify-content-between\">\n\t\t\t\t\t\t<div class=\"banner-content col-lg-9 col-md-12\">\n\t\t\t\t\t\t\t<h1 class=\"text-uppercase\">\n\t\t\t\t\t\t\t\tWe Ensure better education\n\t\t\t\t\t\t\t\tfor a better world\t\t\t\n\t\t\t\t\t\t\t</h1>\n\t\t\t\t\t\t\t<p class=\"pt-10 pb-10\">\n\t\t\t\t\t\t\t\tIn the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"primary-btn text-uppercase\">Get Started</a>\n\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\t\t\t\n\t\t\t</section>\n\t\t\t<!-- End banner Area -->\n\n\t\t\t<!-- Start feature Area -->\n\t\t\t<section class=\"feature-area\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-4\">\n\t\t\t\t\t\t\t<div class=\"single-feature\">\n\t\t\t\t\t\t\t\t<div class=\"title\">\n\t\t\t\t\t\t\t\t\t<h4>Learn Online Courses</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"desc-wrap\">\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tUsage of the Internet is becoming more common due to rapid advancement\n\t\t\t\t\t\t\t\t\t\tof technology.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\">Join Now</a>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-4\">\n\t\t\t\t\t\t\t<div class=\"single-feature\">\n\t\t\t\t\t\t\t\t<div class=\"title\">\n\t\t\t\t\t\t\t\t\t<h4>No.1 of universities</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"desc-wrap\">\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor many of us, our very first experience of learning about the celestial bodies begins when we saw our first.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\">Join Now</a>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-4\">\n\t\t\t\t\t\t\t<div class=\"single-feature\">\n\t\t\t\t\t\t\t\t<div class=\"title\">\n\t\t\t\t\t\t\t\t\t<h4>Huge Library</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"desc-wrap\">\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tIf you are a serious astronomy fanatic like a lot of us are, you can probably remember that one event.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\">Join Now</a>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End feature Area -->\n\t\t\t\t\t\n\t\t\t<!-- Start popular-course Area -->\n\t\t\t<section class=\"popular-course-area section-gap\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row d-flex justify-content-center\">\n\t\t\t\t\t\t<div class=\"menu-content pb-70 col-lg-8\">\n\t\t\t\t\t\t\t<div class=\"title text-center\">\n\t\t\t\t\t\t\t\t<h1 class=\"mb-10\">Popular Courses we offer</h1>\n\t\t\t\t\t\t\t\t<p>There is a moment in the life of any aspiring.</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"active-popular-carusel\">\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p1.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn Designing\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p2.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn React js beginners\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p3.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn Photography\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p4.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn Surveying\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p1.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn Designing\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p2.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn React js beginners\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p3.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn Photography\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-popular-carusel\">\n\t\t\t\t\t\t\t\t<div class=\"thumb-wrap relative\">\n\t\t\t\t\t\t\t\t\t<div class=\"thumb relative\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\t\n\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/p4.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"meta d-flex justify-content-between\">\n\t\t\t\t\t\t\t\t\t\t<p><span class=\"lnr lnr-users\"></span> 355 <span class=\"lnr lnr-bubble\"></span>35</p>\n\t\t\t\t\t\t\t\t\t\t<h4>$150</h4>\n\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t\t\t\tLearn Surveying\n\t\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tWhen television was young, there was a hugely popular show based on the still popular fictional characte\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End popular-course Area -->\n\t\t\t\n\n\t\t\t<!-- Start search-course Area -->\n\t\t\t<section class=\"search-course-area relative\">\n\t\t\t\t<div class=\"overlay overlay-bg\"></div>\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row justify-content-between align-items-center\">\n\t\t\t\t\t\t<div class=\"col-lg-6 col-md-6 search-course-left\">\n\t\t\t\t\t\t\t<h1 class=\"text-white\">\n\t\t\t\t\t\t\t\tGet reduced fee <br>\n\t\t\t\t\t\t\t\tduring this Summer!\n\t\t\t\t\t\t\t</h1>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\tinappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<div class=\"row details-content\">\n\t\t\t\t\t\t\t\t<div class=\"col single-detials\">\n\t\t\t\t\t\t\t\t\t<span class=\"lnr lnr-graduation-hat\"></span>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Expert Instructors</h4></a>\t\t\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tUsage of the Internet is becoming more common due to rapid advancement of technology and power.\n\t\t\t\t\t\t\t\t\t</p>\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col single-detials\">\n\t\t\t\t\t\t\t\t\t<span class=\"lnr lnr-license\"></span>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Certification</h4></a>\t\t\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tUsage of the Internet is becoming more common due to rapid advancement of technology and power.\n\t\t\t\t\t\t\t\t\t</p>\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-4 col-md-6 search-course-right section-gap\">\n\t\t\t\t\t\t\t<form class=\"form-wrap\" action=\"#\">\n\t\t\t\t\t\t\t\t<h4 class=\"text-white pb-20 text-center mb-30\">Search for Available Course</h4>\t\t\n\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control\" name=\"name\" placeholder=\"Your Name\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Your Name'\" >\n\t\t\t\t\t\t\t\t<input type=\"phone\" class=\"form-control\" name=\"phone\" placeholder=\"Your Phone Number\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Your Phone Number'\" >\n\t\t\t\t\t\t\t\t<input type=\"email\" class=\"form-control\" name=\"email\" placeholder=\"Your Email Address\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Your Email Address'\" >\n\t\t\t\t\t\t\t\t<div class=\"form-select\" id=\"service-select\">\n\t\t\t\t\t\t\t\t\t<select>\n\t\t\t\t\t\t\t\t\t\t<option datd-display=\"\">Choose Course</option>\n\t\t\t\t\t\t\t\t\t\t<option value=\"1\">Course One</option>\n\t\t\t\t\t\t\t\t\t\t<option value=\"2\">Course Two</option>\n\t\t\t\t\t\t\t\t\t\t<option value=\"3\">Course Three</option>\n\t\t\t\t\t\t\t\t\t\t<option value=\"4\">Course Four</option>\n\t\t\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<button class=\"primary-btn text-uppercase\">Submit</button>\n\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End search-course Area -->\n\t\t\t\n\t\t\n\t\t\t<!-- Start upcoming-event Area -->\n\t\t\t<section class=\"upcoming-event-area section-gap\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row d-flex justify-content-center\">\n\t\t\t\t\t\t<div class=\"menu-content pb-70 col-lg-8\">\n\t\t\t\t\t\t\t<div class=\"title text-center\">\n\t\t\t\t\t\t\t\t<h1 class=\"mb-10\">Upcoming Events of our Institute</h1>\n\t\t\t\t\t\t\t\t<p>If you are a serious astronomy fanatic like a lot of us</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"active-upcoming-event-carusel\">\n\t\t\t\t\t\t\t<div class=\"single-carusel row align-items-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-6 thumb\">\n\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/e1.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"detials col-12 col-md-6\">\n\t\t\t\t\t\t\t\t\t<p>25th February, 2018</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>The Universe Through\n\t\t\t\t\t\t\t\t\tA Child S Eyes</h4></a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-carusel row align-items-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-6 thumb\">\n\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/e2.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"detials col-12 col-md-6\">\n\t\t\t\t\t\t\t\t\t<p>25th February, 2018</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>The Universe Through\n\t\t\t\t\t\t\t\t\tA Child S Eyes</h4></a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-carusel row align-items-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-6 thumb\">\n\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/e1.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"detials col-12 col-md-6\">\n\t\t\t\t\t\t\t\t\t<p>25th February, 2018</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>The Universe Through\n\t\t\t\t\t\t\t\t\tA Child S Eyes</h4></a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-carusel row align-items-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-6 thumb\">\n\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/e1.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"detials col-12 col-md-6\">\n\t\t\t\t\t\t\t\t\t<p>25th February, 2018</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>The Universe Through\n\t\t\t\t\t\t\t\t\tA Child S Eyes</h4></a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-carusel row align-items-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-6 thumb\">\n\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/e2.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"detials col-12 col-md-6\">\n\t\t\t\t\t\t\t\t\t<p>25th February, 2018</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>The Universe Through\n\t\t\t\t\t\t\t\t\tA Child S Eyes</h4></a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-carusel row align-items-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-6 thumb\">\n\t\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/e1.jpg\" alt=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"detials col-12 col-md-6\">\n\t\t\t\t\t\t\t\t\t<p>25th February, 2018</p>\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>The Universe Through\n\t\t\t\t\t\t\t\t\tA Child S Eyes</h4></a>\n\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\tFor most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End upcoming-event Area -->\n\t\t\t\t\t\t\n\t\t\t<!-- Start review Area -->\n\t\t\t<section class=\"review-area section-gap relative\">\n\t\t\t\t<div class=\"overlay overlay-bg\"></div>\n\t\t\t\t<div class=\"container\">\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"active-review-carusel\">\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Fannie Rowe</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Hulda Sutton</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Fannie Rowe</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Hulda Sutton</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Fannie Rowe</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Hulda Sutton</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<img src=\"img/r1.png\" alt=\"\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Fannie Rowe</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"single-review item\">\n\t\t\t\t\t\t\t\t<div class=\"title justify-content-start d-flex\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><h4>Hulda Sutton</h4></a>\n\t\t\t\t\t\t\t\t\t<div class=\"star\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star checked\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"fa fa-star\"></span>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\tAccessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End review Area -->\t\n\t\t\t\n\t\t\t<!-- Start cta-one Area -->\n\t\t\t<section class=\"cta-one-area relative section-gap\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"overlay overlay-bg\"></div>\n\t\t\t\t\t<div class=\"row justify-content-center\">\n\t\t\t\t\t\t<div class=\"wrap\">\n\t\t\t\t\t\t\t<h1 class=\"text-white\">Become an instructor</h1>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\tThere is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a class=\"primary-btn wh\" href=\"#\">Apply for the post</a>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End cta-one Area -->\n\n\t\t\t<!-- Start blog Area -->\n\t\t\t<section class=\"blog-area section-gap\" id=\"blog\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row d-flex justify-content-center\">\n\t\t\t\t\t\t<div class=\"menu-content pb-70 col-lg-8\">\n\t\t\t\t\t\t\t<div class=\"title text-center\">\n\t\t\t\t\t\t\t\t<h1 class=\"mb-10\">Latest posts from our Blog</h1>\n\t\t\t\t\t\t\t\t<p>In the history of modern astronomy there is.</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-6 single-blog\">\n\t\t\t\t\t\t\t<div class=\"thumb\">\n\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/b1.jpg\" alt=\"\">\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<p class=\"meta\">25 April, 2018  |  By <a href=\"#\">Mark Wiens</a></p>\n\t\t\t\t\t\t\t<a href=\"blog-single.html\">\n\t\t\t\t\t\t\t\t<h5>Addiction When Gambling Becomes A Problem</h5>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\tComputers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"details-btn d-flex justify-content-center align-items-center\"><span class=\"details\">Details</span><span class=\"lnr lnr-arrow-right\"></span></a>\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-6 single-blog\">\n\t\t\t\t\t\t\t<div class=\"thumb\">\n\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/b2.jpg\" alt=\"\">\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<p class=\"meta\">25 April, 2018  |  By <a href=\"#\">Mark Wiens</a></p>\n\t\t\t\t\t\t\t<a href=\"blog-single.html\">\n\t\t\t\t\t\t\t\t<h5>Computer Hardware Desktops And Notebooks</h5>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\tAh, the technical interview. Nothing like it. Not only does it cause anxiety, but it causes anxiety for several different reasons. \n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"details-btn d-flex justify-content-center align-items-center\"><span class=\"details\">Details</span><span class=\"lnr lnr-arrow-right\"></span></a>\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-6 single-blog\">\n\t\t\t\t\t\t\t<div class=\"thumb\">\n\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/b3.jpg\" alt=\"\">\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<p class=\"meta\">25 April, 2018  |  By <a href=\"#\">Mark Wiens</a></p>\n\t\t\t\t\t\t\t<a href=\"blog-single.html\">\n\t\t\t\t\t\t\t\t<h5>Make Myspace Your Best Designed Space</h5>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\tPlantronics with its GN Netcom wireless headset creates the next generation of wireless headset and other products such as wireless.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"details-btn d-flex justify-content-center align-items-center\"><span class=\"details\">Details</span><span class=\"lnr lnr-arrow-right\"></span></a>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-6 single-blog\">\n\t\t\t\t\t\t\t<div class=\"thumb\">\n\t\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"img/b4.jpg\" alt=\"\">\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<p class=\"meta\">25 April, 2018  |  By <a href=\"#\">Mark Wiens</a></p>\n\t\t\t\t\t\t\t<a href=\"blog-single.html\">\n\t\t\t\t\t\t\t\t<h5>Video Games Playing With Imagination</h5>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\tAbout 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.   11% of all adult internet \n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"details-btn d-flex justify-content-center align-items-center\"><span class=\"details\">Details</span><span class=\"lnr lnr-arrow-right\"></span></a>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End blog Area -->\t\t\t\n\t\t\t\n\n\t\t\t<!-- Start cta-two Area -->\n\t\t\t<section class=\"cta-two-area\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-8 cta-left\">\n\t\t\t\t\t\t\t<h1>Not Yet Satisfied with our Trend?</h1>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-4 cta-right\">\n\t\t\t\t\t\t\t<a class=\"primary-btn wh\" href=\"#\">view our blog</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</section>\n\t\t\t<!-- End cta-two Area -->\n\t\t\t\t\t\t\n\t\t\t<!-- start footer Area -->\t\t\n\t\t\t<footer class=\"footer-area section-gap\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-2 col-md-6 col-sm-6\">\n\t\t\t\t\t\t\t<div class=\"single-footer-widget\">\n\t\t\t\t\t\t\t\t<h4>Top Products</h4>\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Managed Website</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Manage Reputation</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Power Tools</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Marketing Service</a></li>\n\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-2 col-md-6 col-sm-6\">\n\t\t\t\t\t\t\t<div class=\"single-footer-widget\">\n\t\t\t\t\t\t\t\t<h4>Quick links</h4>\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Jobs</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Brand Assets</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Investor Relations</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Terms of Service</a></li>\n\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-2 col-md-6 col-sm-6\">\n\t\t\t\t\t\t\t<div class=\"single-footer-widget\">\n\t\t\t\t\t\t\t\t<h4>Features</h4>\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Jobs</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Brand Assets</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Investor Relations</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Terms of Service</a></li>\n\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-2 col-md-6 col-sm-6\">\n\t\t\t\t\t\t\t<div class=\"single-footer-widget\">\n\t\t\t\t\t\t\t\t<h4>Resources</h4>\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Guides</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Research</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Experts</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\">Agencies</a></li>\n\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-lg-4  col-md-6 col-sm-6\">\n\t\t\t\t\t\t\t<div class=\"single-footer-widget\">\n\t\t\t\t\t\t\t\t<h4>Newsletter</h4>\n\t\t\t\t\t\t\t\t<p>Stay update with our latest</p>\n\t\t\t\t\t\t\t\t<div class=\"\" id=\"mc_embed_signup\">\n\t\t\t\t\t\t\t\t\t <form target=\"_blank\" action=\"https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01\" method=\"get\">\n\t\t\t\t\t\t\t\t\t  <div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" name=\"EMAIL\" placeholder=\"Enter Email Address\" onfocus=\"this.placeholder = ''\" onblur=\"this.placeholder = 'Enter Email Address '\" required=\"\" type=\"email\">\n\t\t\t\t\t\t\t\t\t    <div class=\"input-group-btn\">\n\t\t\t\t\t\t\t\t\t      <button class=\"btn btn-default\" type=\"submit\">\n\t\t\t\t\t\t\t\t\t        <span class=\"lnr lnr-arrow-right\"></span>\n\t\t\t\t\t\t\t\t\t      </button>    \n\t\t\t\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t\t\t\t    \t<div class=\"info\"></div>  \n\t\t\t\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t\t\t\t</form> \n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"footer-bottom row align-items-center justify-content-between\">\n\t\t\t\t\t\t<p class=\"footer-text m-0 col-lg-6 col-md-12\"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->\nCopyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i> by <a href=\"https://colorlib.com\" target=\"_blank\">Colorlib</a>\n<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>\n\t\t\t\t\t\t<div class=\"col-lg-6 col-sm-12 footer-social\">\n\t\t\t\t\t\t\t<a href=\"#\"><i class=\"fa fa-facebook\"></i></a>\n\t\t\t\t\t\t\t<a href=\"#\"><i class=\"fa fa-twitter\"></i></a>\n\t\t\t\t\t\t\t<a href=\"#\"><i class=\"fa fa-dribbble\"></i></a>\n\t\t\t\t\t\t\t<a href=\"#\"><i class=\"fa fa-behance\"></i></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</footer>\t\n\t\t\t<!-- End footer Area -->\t\n\n\n\t\t\t<script src=\"js/vendor/jquery-2.2.4.min.js\"></script>\n\t\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>\n\t\t\t<script src=\"js/vendor/bootstrap.min.js\"></script>\t\t\t\n\t\t\t<script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA\"></script>\n  \t\t\t<script src=\"js/easing.min.js\"></script>\t\t\t\n\t\t\t<script src=\"js/hoverIntent.js\"></script>\n\t\t\t<script src=\"js/superfish.min.js\"></script>\t\n\t\t\t<script src=\"js/jquery.ajaxchimp.min.js\"></script>\n\t\t\t<script src=\"js/jquery.magnific-popup.min.js\"></script>\t\n    \t\t<script src=\"js/jquery.tabs.min.js\"></script>\t\t\t\t\t\t\n\t\t\t<script src=\"js/jquery.nice-select.min.js\"></script>\t\n\t\t\t<script src=\"js/owl.carousel.min.js\"></script>\t\t\t\t\t\t\t\t\t\n\t\t\t<script src=\"js/mail-script.js\"></script>\t\n\t\t\t<script src=\"js/main.js\"></script>\t\n\t\t</body>\n\t</html>",
 			"file": "/C/Users/BUDESCODE/Documents/coding/projects/Abbey/education/index.html",
+			"file_size": 34045,
+			"file_write_time": 131690143320000000,
 			"settings":
 			{
 				"buffer_size": 34009,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -756,10 +740,15 @@
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/account",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/index",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/project",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/images",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates"
 	],
 	"file_history":
 	[
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates/base.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates/about.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates/contact.html",
 		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/home/styles/main_styles.css",
 		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/css/bootstrap.min.css",
 		"/C/Users/BUDESCODE/Untitled.ipynb",
@@ -884,10 +873,7 @@
 		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/order/views.py",
 		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-events.html",
 		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-detail.html",
-		"/C/Users/omonbude/Documents/bootstrap1/new 1.html",
-		"/C/Users/omonbude/Documents/b use/index.html",
-		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/catalog/views.py",
-		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/cart/models.py"
+		"/C/Users/omonbude/Documents/bootstrap1/new 1.html"
 	],
 	"find":
 	{
@@ -916,6 +902,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jes",
+			"color",
+			"login v1",
+			"login",
+			"img",
 			"abo",
 			"sta",
 			"static",
@@ -1038,12 +1029,7 @@
 			"payment",
 			"order",
 			"view_cart",
-			"payment",
-			"MusicBidForm",
-			"music_details",
-			"music",
-			"cbid",
-			"false"
+			"payment"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1078,7 +1064,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1106,40 +1092,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "templates/contact.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3089,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1546,
-								1546
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 453.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -1163,24 +1120,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "templates/about.html",
+					"buffer": 2,
+					"file": "templates/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3331,
+						"buffer_size": 7596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3331,
-								3312
+								0,
+								7596
 							]
 						],
 						"settings":
@@ -1189,7 +1146,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 886.0,
+						"translation.y": 1390.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "static/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3297,
+								3297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1919.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1197,64 +1184,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6492,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1946,
-								1946
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 647.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "templates/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3093,
-								2972
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 906.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "/C/Users/BUDESCODE/Documents/coding/projects/Abbey/education/index.html",
 					"semi_transient": false,
 					"settings":
@@ -1279,11 +1208,11 @@
 						"translation.y": 9632.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "templates/account/login.html",
 					"semi_transient": false,
 					"settings":
@@ -1302,17 +1231,18 @@
 						"settings":
 						{
 							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "templates/account/register.html",
 					"semi_transient": false,
 					"settings":
@@ -1330,17 +1260,18 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 7,
 					"file": "templates/account/registration_success.html",
 					"semi_transient": false,
 					"settings":
@@ -1358,17 +1289,18 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 35.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 8,
 					"file": "templates/account/logout.html",
 					"semi_transient": false,
 					"settings":
@@ -1392,11 +1324,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "account/models.py",
 					"semi_transient": false,
 					"settings":
@@ -1420,11 +1352,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 10,
 					"file": "account/forms.py",
 					"semi_transient": false,
 					"settings":
@@ -1450,11 +1382,11 @@
 						"translation.y": 415.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 11,
 					"file": "account/views.py",
 					"semi_transient": false,
 					"settings":
@@ -1479,11 +1411,11 @@
 						"translation.y": 238.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 12,
 					"file": "project/settings.py",
 					"semi_transient": false,
 					"settings":
@@ -1509,11 +1441,11 @@
 						"translation.y": 1453.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 13,
 					"file": "project/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -1531,7 +1463,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

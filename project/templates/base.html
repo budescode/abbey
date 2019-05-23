@@ -1,72 +1,238 @@
-{% load staticfiles %}
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
-<head>
-	<title>NOBELIE|HOME</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-<!--===============================================================================================-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
- <style>
-    @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #hide_mobile{
-        display:none;
-    }
+    <title>{% block title %}Atreat4u{% endblock %}</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="{% static 'img/logo/fav.JPG' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+
+
+
+{% block style %}
+    <style>
+     .fa {
+    font-size: 2em;
+/*    width: 2em;
+    height: 1.5em;
+    text-align: center;*/
+  }
+
+  .fa.fa-facebook-official {
+    color: #3b5998;
+    margin-left: -10px;
+}
+  .fa.fa-twitter-square {
+    color: #55acee;
+}
+
+    ul#menu li {
+    display:inline;
     }
 
-    @media only screen and (min-width: 768px) {
-  /* For desktop: */
-    #hide_desktop{
-        display:none;
-    }
+      #atreat{
+        color: red;
+        font-size:45px;
+        font-family: cursive;"
+      }
+
+
+        #size{
+          font-size: 20px;
+        }
+
+      #color-orange{
+        color: rgb(227, 108, 10); font-size:20px;
+      }
+
+
+/*      div.img {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+      }
+
+      div.img:hover {
+      border: 1px solid #777;
+      }
+
+      div.img img {
+      width: 100%;
+      height: auto;
+      }
+
+      div.desc {
+      padding: 15px;
+      text-align: center;
+      }*/
+
+body {
+  margin-top: 80px;
 }
 
 
-</style>
 
+    </style>
+{% endblock %}
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{% url 'catalog:index' %}">
+      <img alt="Brand" src="{% static 'img/logo/logo.png' %}" id="logo" style="margin-top: -25px; margin-left: -15px;">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
 
+      <ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="{% url 'catalog:index' %}">Home</a></li>
+         <li><a href="{% url 'catalog:about' %}">About Us</a></li>
+         <li><a href="{% url 'catalog:contact' %}">Contact Us</a></li>
+        <li><a href="{% url 'cart:myproducts' %}">My Products</a></li>
+        <li><a href="{% url 'cart:view_cart' %}"><i class="fa fa-logout"></i> Cart</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Account <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        {% if request.user.is_authenticated %}
+        <li><a href="{% url 'account:register' %}">Sign Up</a></li>
+         <li><a href="{% url 'account:logout' %}">Logout</a></li>
+
+        {% else %}
+          <li><a href="{% url 'account:register' %}">Sign Up</a></li>
+          <li><a href="{% url 'account:login' %}"> Login</a></li>
+
+            {% endif %}
+            <li><a href="{% url 'account:profile' %}">Profile</a></li>
+           <li><a href="{% url 'account:change_password' %}">Forget Password</a></li>
+        </ul>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 </head>
-<body>
+
+
+
 
 
 {% block body %}
-
-{% endblock body %}
-
-
-<!--===============================================================================================-->	
-	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
-<!--===============================================================================================-->
-	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
-	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
-<!--===============================================================================================-->
-	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
-<!--===============================================================================================-->
-	<script src="{% static 'vendor/tilt/tilt.jquery.min.js' %}"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="{% static 'js/main.js' %}"></script>
-
+<body>
 </body>
+{% endblock %}
+
+
+<div class="login">
+{% block login %}
+<body>
+</body>
+{% endblock %}
+</div>
+
+{% block meal %}
+<body>
+</body>
+{% endblock %}
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-offset-3">
+{% block form %}
+<body>
+</body>
+{% endblock form %}
+</div>
+</div>
+</div>
+
+
+
+    <footer id="footer" style="background-color: rgb(34, 34, 34); color: white; margin-top: 80px;">
+
+        <div class="container-fluid">
+          <!-- row -->
+          <div class="row">
+            <div class="col-md-6 col-xs-6">
+              <div class="" style="text-align: left;">
+                <h3 class="" style="color: white;">About Us</h3>
+                <p>we make sales of goods and services easier </p>
+                <ul class="">
+
+                  <li><a href="#"><i class="fa fa-phone"></i>+2348033446523</a></li>
+                  <li><a href="#"><i class="fa fa-envelope-o"></i>richardowota@gmail.com</a></li>
+                <li style="margin-left: 10px;">
+
+                        <a href="https://www.facebook.com/Atreat4u-988141281389094/"><i class="fa fa-facebook-official" style='background-color:#222'></i></a>
+                        <i class="fa fa-twitter-square"></i>
+
+
+                </li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-xs-6">
+              <div class="footer">
+                <h3 class="" style="color: white;">Information</h3>
+                <ul class="">
+                  <li><a href="{% url 'catalog:contact' %}">Contact Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /container -->
+
+
+      <!-- bottom footer -->
+      <div id="bottom-footer" class="section">
+        <div class="container">
+          <!-- row -->
+          <div class="row">
+            <div class="col-md-12 text-center">
+
+              <span class="copyright">
+
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Designed By The Budescode
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+</div>
+    </footer>
+
+
+
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+
+
+
+
 </html>
+

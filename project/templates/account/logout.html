@@ -1,56 +1,17 @@
+
 {% extends 'base.html' %}
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
 {% block title %}Logged out{% endblock %}
-{% block body %}
-<!-- <section class="banner-area relative" id="home">
-	<div class="overlay overlay-bg"></div>	
-	<div class="container">
-		<div class="row fullscreen d-flex align-items-center justify-content-between">
-			<div class=" col-md-6 offset-md-3" style="margin-top: -230px;">
+{% block form %}
+ <h1>Logged out</h1>
+ <p>You have been successfully logged out. You can <a href="{% url 'account:login' %}"><button class="btn btn-primary "> log-in again</button></a></p>
 
+</body>
+</html>
 
- <h1 style="color: red;">Logged out</h1><br>
- <p>You have been successfully logged out. <a href="{% url 'account:login' %}"><span>Click here to log-in</span></a></p>
-
-			</div>										
-		</div>
-	</div>					
-</section> -->
-
-
-<section class="banner-area relative" id="home">
-	<div class="overlay overlay-bg"></div>	
-	<div class="container">
-		<div class="row fullscreen d-flex align-items-center justify-content-between">
-			<div class=" col-md-6 offset-md-3">
-
-				<hr>
-				<center><h1 style="font-family: 'black_jackregular';"><i class="fa fa-paper-plane" aria-hidden="true" style="color: orange"></i>&nbsp;<span style="color: rgb(70, 147, 56);">Logged out</span></h1></center><br>
-				<hr>
-				<p>
-				<center><p>Click on the button below to login</p></center>
-				<a href="{% url 'account:login' %}"><button type="button" class="btn btn-md btn-block" style="background-color: rgb(70, 147, 56); color: white;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;Login</button></a>
-
-				</p>
-				<br>
-				<hr>
-
-					<div class="container-login100-form-btn"> 
-					Login with &nbsp&nbsp&nbsp
-					<a href=""><i class="fa fa-facebook fa-lg"></i></a> &nbsp&nbsp&nbsp
-					<a href=""><i class="fa fa-google fa-lg"></i></a>&nbsp&nbsp&nbsp
-					<a href=""><i class="fa fa-twitter fa-lg"></i></a>
-					</div>
-
-					<a href="{% url 'home:home' %}">Home Page</a>
-
-
-			</div>										
-		</div>
-	</div>					
-</section>
-
-
-
-
-{% endblock %}
+{% endblock form %}

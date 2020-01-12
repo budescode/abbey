@@ -3,7 +3,15 @@
 
 {% block body %}
 
+<style>
+	@media only screen and (max-width: 1024px) {
+.jumbotron {
+background-attachment: initial !important;
+}
+}
 
+
+</style>
 
 
 	<!-- Slider -->
@@ -20,14 +28,14 @@
 <div class="row">
 <div class="col-md-12">
 	
-	<!-- background-image: url('../static/home/images/bg.jpeg') -->
+	<!-- background-image: url('../static/home/images/bg.jpeg') 12, 18, 26--> 
 
-<div class="jumbotron" style="background-color: rgb(12, 18, 26); color: white; margin-top: -50px; height: 500px;" >
+<div class="jumbotron" style="background-image: url('../static/home/images/bg.jpeg'); background-attachment: initial; color: white; margin-top: -50px; height: 500px;" >
    <div class="page-header" style="margin-top: 100px;">
-    <center><h2 style="color: white;"><b>The real world is calling</b></h2> </center>     
+    <center><h2 style="color: white;"><b>Connecting the church</b></h2> </center>     
   </div>
 
-  <center><p class="lead" style="color: white;">Join a local group to meet people, try something new, or do more of what you love.</p>
+  <center><p class="lead" style="color: white;">Nobelie is an online community that connects members from different churches.</p>
   <hr class="my-4">
    <p class="lead">
     <a class="btn btn-default btn-lg" style="background-color: rgb(246, 64, 96); color: white;" href="#" role="button">Join Now</a>
@@ -47,92 +55,79 @@
 
 
 
-	<div class="new_arrivals">
-		<div class="container">
+<div class="container">
 
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_title new_arrivals_title">
-						<h2>Categories</h2>
-					</div>
-				</div>
-			</div>
+<div class="row">
+	<div class="col text-center">
+		<div class="section_title new_arrivals_title">
+			<h4>You can use nobelie to</h4>
+		</div>
+	</div>
+</div>
 
-			<div class="row">
-				<div class="col">
-					<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
+<div class="row" style="margin-top: 40px; margin-bottom: 30px;">
+				
 
 						<!-- Product 1 -->
 
-						<div class="product-item men col-md-3">
-							<div class="product discount product_filter">
-								<div class="product_image">
-									<img src="{% static 'home/images/bible.jpg' %}" alt="">
-								</div>
-								<!-- <div class="favorite favorite_left"></div> -->
-								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>Ministry</span></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="">some random description heresome random description here</a></h6>
-									<div class="red_button add_to_cart_button"><a href="">Add Ministry</a></div>
-									<!-- <div class="product_price">$520.00<span>$590.00</span></div> -->
-								</div>
-							</div>
-							
-						</div>
-
 						<!-- Product 2 -->
 
-						<div class="product-item women col-md-3">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="{% static 'home/images/calendar.jpg' %}" alt=""> 
-								</div>
-								<!-- <div class="favorite"></div> -->
-								<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>Events</span></div>
-								<div class="product_info"> 
-									<h6 class="product_name"><a href="">some random description heresome random description here</a></h6>
-									<!-- <div class="product_price">$610.00</div> -->
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="">Add Events</a></div>
-						</div>
+
+
+<div class="card-deck">
+
+<div class="card" style="" >
+<img class="card-img-top img-fluid" src="{% static 'home/images/ministry5.jpg' %}" alt="Card image">
+<div class="product_bubble product_bubble_left product_bubble_red d-flex flex-column align-items-center"><span>Ministries</span></div>
+<div class="card-body">
+<!-- <h4 class="card-title">John Doe</h4> -->
+<p class="card-text"><b>Search and follow ministries around</b></p> <br>
+<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Add your ministry</a>
+</div>
+</div>
+<div class="card" style="" >
+<img class="card-img-top img-fluid" src="{% static 'home/images/friends.jpg' %}" alt="Card image">
+<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>Friends</span></div>
+<div class="card-body">
+<!-- <h4 class="card-title">John Doe</h4> -->
+<p class="card-text"><b>Search and follow friends going to your church and other churches</b></p> 
+<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Find friends</a>
+</div>
+</div>
+<div class="card" style="" >
+<img class="card-img-top img-fluid" src="{% static 'home/images/question3.jpg' %}" alt="Card image">
+<div class="product_bubble product_bubble_left product_bubble_red d-flex flex-column align-items-center"><span>Questions</span></div>
+<div class="card-body">
+<!-- <h4 class="card-title">John Doe</h4> -->
+<p class="card-text"><b style="font-weight: bolder;">Ask pressing questions and get answers from other members</b></p> 
+<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Ask your question</a>
+</div>
+</div>
+<div class="card" style="" >
+<img class="card-img-top img-fluid" src="{% static 'home/images/calendar7.jpg' %}" alt="Card image">
+<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>Events</span></div>
+<div class="card-body">
+<!-- <h4 class="card-title">John Doe</h4> -->
+<p class="card-text"><b>Find or add upcoming events</b></p> <br><br>
+<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Create your event</a>
+</div>
+</div>
+
+
+</div>
+
+
+
 
 						<!-- Product 3 -->
 
-						<div class="product-item women col-md-3">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="{% static 'home/images/green.png' %}" alt=""> 
-								</div>
-								<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>Topics</span></div>
-								<!-- div class="favorite"></div> -->
-								<div class="product_info">
-									<h6 class="product_name"><a href="">some random description heresome random description here</a></h6>
-									<!-- <div class="product_price">$120.00</div> -->
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="">View</a></div>
-						</div>
 
-						<!-- Product 4 -->
-
-						<div class="product-item accessories col-md-3">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="{% static 'home/images/feedback.jpg' %}" alt="">
-								</div>
-								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>Feedback</span></div>
-								<!-- <div class="favorite favorite_left"></div> -->
-								<div class="product_info">
-									<h6 class="product_name"><a href="">some random description heresome random description here</a></h6>
-									<!-- <div class="product_price">$410.00</div> -->
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="">View</a></div>
-						</div>
+						
 
 
-					</div>
+
+
+				
 				</div>
 			</div>
 
@@ -143,45 +138,29 @@
 
 
 
-		</div>
+		
 	</div>
+
 			<div class="container-fluid">
 				
-			
-			<div class="row">
-			<div class="col-md-12">
-				<div class="jumbotron" style="background-color: rgb(12, 18, 26); color: white;" >
-				<div class="page-header" style="margin-top: 100px;">
-				<center><h2 style="color: white;"><b>How Nobelie works</b></h2> </center>   <br>  
-				</div>
+
+				<div class="jumbotron" style="background-color: white;" >
+
 				<div class="row">
 					
 				
-				<div class="col-md-5 offset-md-1" ]>
-					<h3 style="color: white;"><i class="fa fa-search fa-lg" style="color: rgb(0, 162, 199);"></i> &nbsp&nbsp&nbsp Discover groups</h3>
+				<div class="col-md-12 offset-md-1" >
+					<h5 style="color: rgb(229, 73, 176)"> <span style="font-size: 20px;">Join your colleagues, church members and friends on Nobelie.</span></h5><br>
+
 					<p>
-						See who’s hosting local events for all the things you love.
-					</p>
-					<p>
-						<a href="#" style="font-size: 23px; color: rgb(0, 162, 199);">Join Nobelie</a>
+						<button class="btn btn-default" style="background-color: rgb(229, 73, 176); color: white; border-radius: 20px;">Join Nobelie</button>
 					</p>
 				</div>
 
-				<div class="col-md-6">
-					<h3 style="color: white;"><i class="fa fa-plus fa-lg" style="color: rgb(0, 162, 199);"></i> &nbsp&nbsp&nbsp Start a new group</h3>
-					<p>
-						 Create your own Meetup group, and draw from a community of millions.
-					</p>
-					<p>
-						<a href="#" style="font-size: 23px; color: rgb(0, 162, 199);">Get Started</a>
-					</p>
 
 				</div>
-				</div>
 
-				</div>
-			</div>
-			</div>
+
 			</div>
 
 {% endblock %}

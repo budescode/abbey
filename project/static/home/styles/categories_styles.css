@@ -277,7 +277,7 @@ section
 	line-height: 50px;
 	font-size: 13px;
 	color: #b5aec4;
-	text-transform: uppercase;
+	/*text-transform: lowercase;*/
 }
 
 /*********************************
@@ -304,7 +304,7 @@ section
 	height: 50px;
 	line-height: 50px;
 	font-size: 13px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .currency > a > i
 {
@@ -347,7 +347,7 @@ section
 	color: #232530;
 	border-bottom: solid 1px #dddddd;
 	font-size: 13px;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	-webkit-transition: opacity 0.3s ease;
 	-moz-transition: opacity 0.3s ease;
 	-ms-transition: opacity 0.3s ease;
@@ -555,7 +555,7 @@ section
 	color: #1e1e27;
 	font-size: 13px;
 	font-weight: 500;
-	text-transform: uppercase;
+/*	text-transform: lowercase;*/
 	padding: 20px;
 	-webkit-transition: color 0.3s ease;
 	-moz-transition: color 0.3s ease;
@@ -728,7 +728,7 @@ section
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .menu_item > a:hover
 {
@@ -769,7 +769,7 @@ section
 	color: #232530;
 	border-bottom: solid 1px #dddddd;
 	font-size: 13px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	-webkit-transition: opacity 0.3s ease;
 	-moz-transition: opacity 0.3s ease;
 	-ms-transition: opacity 0.3s ease;
@@ -809,7 +809,7 @@ section
 	font-size: 24px;
 	color: #1e1e27;
 	font-weight: 700;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 }
 .logo_container a span
 {
@@ -843,7 +843,7 @@ section
 {
 	display: block;
 	color: #FFFFFF;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 14px;
 	font-weight: 500;
 	text-align: center;

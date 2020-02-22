@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"bt",
+				"btn-default"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"que",
+				"question3"
+			],
+			[
+				"mini",
+				"Ministry"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
 				"col",
 				"color"
 			],
@@ -26,10 +62,6 @@
 			[
 				"im",
 				"images"
-			],
-			[
-				"bac",
-				"background-image"
 			],
 			[
 				"ac",
@@ -88,10 +120,6 @@
 				"total_price"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"sing",
 				"single_total"
 			],
@@ -136,20 +164,8 @@
 				"quote_plus"
 			],
 			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"pa",
-				"padding-right"
-			],
-			[
 				"padd",
 				"padding"
-			],
-			[
-				"d",
-				"detail"
 			],
 			[
 				"addr",
@@ -218,10 +234,6 @@
 			[
 				"op",
 				"opti1"
-			],
-			[
-				"que",
-				"ques_count"
 			],
 			[
 				"rad",
@@ -480,10 +492,6 @@
 				"static"
 			],
 			[
-				"bt",
-				"btn-lg"
-			],
-			[
 				"bo",
 				"border-radius"
 			],
@@ -506,19 +514,20 @@
 			[
 				"id",
 				"id_user"
-			],
-			[
-				"exe",
-				"execute"
-			],
-			[
-				"connect",
-				"connection"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "static/home/styles/main_styles.css",
+			"settings":
+			{
+				"buffer_size": 27318,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
 		{
 			"file": "index/urls.py",
 			"settings":
@@ -529,21 +538,10 @@
 			}
 		},
 		{
-			"contents": "{% load staticfiles %}\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<title>NOBELIE|HOME</title>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<!--===============================================================================================-->\t\n\t<link rel=\"icon\" type=\"image/png\" href=\"images/icons/favicon.ico\"/>\n<!--===============================================================================================-->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'vendor/bootstrap/css/bootstrap.min.css' %}\">\n<!--===============================================================================================-->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}\">\n<!--===============================================================================================-->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'vendor/animate/animate.css' %}\">\n<!--===============================================================================================-->\t\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'vendor/css-hamburgers/hamburgers.min.css' %}\">\n<!--===============================================================================================-->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'vendor/select2/select2.min.css' %}\">\n<!--===============================================================================================-->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'css/util.css' %}\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"{% static 'css/main.css' %}\">\n<!--===============================================================================================-->\n\n <style>\n    @media only screen and (max-width: 768px) {\n    /* For mobile phones: */\n    #hide_mobile{\n        display:none;\n    }\n    }\n\n    @media only screen and (min-width: 768px) {\n  /* For desktop: */\n    #hide_desktop{\n        display:none;\n    }\n}\n\n\n</style>\n\n\n\n</head>\n<body>\n\n\n\n{% block body %}\n\n{% endblock body %}\n\n\n<!--===============================================================================================-->\t\n\t<script src=\"{% static 'vendor/jquery/jquery-3.2.1.min.js' %}\"></script>\n<!--===============================================================================================-->\n\t<script src=\"{% static 'vendor/bootstrap/js/popper.js' %}\"></script>\n\t<script src=\"{% static 'vendor/bootstrap/js/bootstrap.min.js' %}\"></script>\n<!--===============================================================================================-->\n\t<script src=\"{% static 'vendor/select2/select2.min.js' %}\"></script>\n<!--===============================================================================================-->\n\t<script src=\"{% static 'vendor/tilt/tilt.jquery.min.js' %}\"></script>\n\t<script >\n\t\t$('.js-tilt').tilt({\n\t\t\tscale: 1.1\n\t\t})\n\t</script>\n<!--===============================================================================================-->\n\t<script src=\"{% static 'js/main.js' %}\"></script>\n\n</body>\n</html>",
-			"file": "templates/base.html",
-			"file_size": 6150,
-			"file_write_time": 131955824780000000,
-			"settings":
-			{
-				"buffer_size": 3075,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "templates/base2.html",
 			"settings":
 			{
-				"buffer_size": 5477,
+				"buffer_size": 5532,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -552,17 +550,19 @@
 			"file": "templates/index1.html",
 			"settings":
 			{
-				"buffer_size": 5577,
+				"buffer_size": 5633,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "<nav class=\"navbar navbar-expand-md bg-dark navbar-dark sticky-top\">\n  <!-- Brand -->\n  <a class=\"navbar-brand\" href=\"#\">NOBELIE</a>\n\n  <!-- Toggler/collapsibe Button -->\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsibleNavbar\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <!-- Navbar links -->\n  <div class=\"collapse navbar-collapse\" id=\"collapsibleNavbar\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Home</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">About us</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Contact us</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Feedback</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Events</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Add Ministry</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Topics</a>\n      </li>\n            <li class=\"nav-item dropdown\">\n        <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n          Account\n        </a>\n        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n          <a class=\"dropdown-item\" href=\"{% url 'account:login' %}\">Login</a>\n          <a class=\"dropdown-item\" href=\"{% url 'account:logout' %}\">Logout</a>\n          <a class=\"dropdown-item\" href=\"{% url 'account:register' %}\">Register</a>\n        </div>\n      </li>\n\n    </ul>\n  </div>\n</nav> ",
 			"file": "templates/navbar.html",
+			"file_size": 1719,
+			"file_write_time": 132027080582669682,
 			"settings":
 			{
 				"buffer_size": 1673,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -589,7 +589,6 @@
 			"settings":
 			{
 				"buffer_size": 15309,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -656,11 +655,13 @@
 			}
 		},
 		{
+			"contents": "\n\n\n\n/*//////////////////////////////////////////////////////////////////\n[ FONT ]*/\n\n@font-face {\n  font-family: Poppins-Regular;\n  src: url('../fonts/poppins/Poppins-Regular.ttf'); \n}\n\n@font-face {\n  font-family: Poppins-Bold;\n  src: url('../fonts/poppins/Poppins-Bold.ttf'); \n}\n\n@font-face {\n  font-family: Poppins-Medium;\n  src: url('../fonts/poppins/Poppins-Medium.ttf'); \n}\n\n@font-face {\n  font-family: Montserrat-Bold;\n  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); \n}\n\n/*//////////////////////////////////////////////////////////////////\n[ RESTYLE TAG ]*/\n\n* {\n\tmargin: 0px; \n\tpadding: 0px; \n\tbox-sizing: border-box;\n}\n\nbody, html {\n\theight: 100%;\n\tfont-family: Poppins-Regular, sans-serif;\n}\n\n/*---------------------------------------------*/\na {\n\tfont-family: Poppins-Regular;\n\tfont-size: 14px;\n\tline-height: 1.7;\n\tcolor: #666666;\n\tmargin: 0px;\n\ttransition: all 0.4s;\n\t-webkit-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n}\n\na:focus {\n\toutline: none !important;\n}\n\na:hover {\n\ttext-decoration: none;\n  color: #57b846;\n}\n\n/*---------------------------------------------*/\nh1,h2,h3,h4,h5,h6 {\n\tmargin: 0px;\n}\n\np {\n\tfont-family: Poppins-Regular;\n\tfont-size: 14px;\n\tline-height: 1.7;\n\tcolor: #666666;\n\tmargin: 0px;\n}\n\nul, li {\n\tmargin: 0px;\n\tlist-style-type: none;\n}\n\n\n/*---------------------------------------------*/\ninput {\n\toutline: none;\n\tborder: none;\n}\n\ntextarea {\n  outline: none;\n  border: none;\n}\n\ntextarea:focus, input:focus {\n  border-color: transparent !important;\n}\n\ninput:focus::-webkit-input-placeholder { color:transparent; }\ninput:focus:-moz-placeholder { color:transparent; }\ninput:focus::-moz-placeholder { color:transparent; }\ninput:focus:-ms-input-placeholder { color:transparent; }\n\ntextarea:focus::-webkit-input-placeholder { color:transparent; }\ntextarea:focus:-moz-placeholder { color:transparent; }\ntextarea:focus::-moz-placeholder { color:transparent; }\ntextarea:focus:-ms-input-placeholder { color:transparent; }\n\ninput::-webkit-input-placeholder { color: #999999; }\ninput:-moz-placeholder { color: #999999; }\ninput::-moz-placeholder { color: #999999; }\ninput:-ms-input-placeholder { color: #999999; }\n\ntextarea::-webkit-input-placeholder { color: #999999; }\ntextarea:-moz-placeholder { color: #999999; }\ntextarea::-moz-placeholder { color: #999999; }\ntextarea:-ms-input-placeholder { color: #999999; }\n\n/*---------------------------------------------*/\nbutton {\n\toutline: none !important;\n\tborder: none;\n\tbackground: transparent;\n}\n\nbutton:hover {\n\tcursor: pointer;\n}\n\niframe {\n\tborder: none !important;\n}\n\n\n/*//////////////////////////////////////////////////////////////////\n[ Utility ]*/\n.txt1 {\n  font-family: Poppins-Regular;\n  font-size: 13px;\n  line-height: 1.5;\n  color: #999999;\n}\n\n.txt2 {\n  font-family: Poppins-Regular;\n  font-size: 13px;\n  line-height: 1.5;\n  color: #666666;\n}\n\n\n/*//////////////////////////////////////////////////////////////////\n[ login ]*/\n\n.limiter {\n  width: 100%;\n  margin: 0 auto;\n}\n\n.container-login100 {\n  width: 100%;  \n  min-height: 100vh;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n  padding: 15px;\n  background-image: url('../images/jesus.jpg');\n/*  background: #9053c7;\n  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);\n  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);\n  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);\n  background: linear-gradient(-135deg, #c850c0, #4158d0);*/\n}\n\n.wrap-login100 {\n  width: 960px;\n  background: #fff;\n  border-radius: 10px;\n  overflow: hidden;\n\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  padding: 177px 130px 33px 95px;\n}\n\n/*------------------------------------------------------------------\n[  ]*/\n.login100-pic {\n  width: 316px;\n}\n\n.login100-pic img {\n  max-width: 100%;\n}\n\n\n/*------------------------------------------------------------------\n[  ]*/\n.login100-form {\n  width: 290px;\n}\n\n.login100-form-title {\n  font-family: Poppins-Bold;\n  font-size: 24px;\n  color: #333333;\n  line-height: 1.2;\n  text-align: center;\n\n  width: 100%;\n  display: block;\n  padding-bottom: 54px;\n}\n\n\n/*---------------------------------------------*/\n.wrap-input100 {\n  position: relative;\n  width: 100%;\n  z-index: 1;\n  margin-bottom: 10px;\n}\n\n.input100 {\n  font-family: Poppins-Medium;\n  font-size: 15px;\n  line-height: 1.5;\n  color: #666666;\n\n  display: block;\n  width: 100%;\n  background: #e6e6e6;\n  height: 50px;\n  border-radius: 25px;\n  padding: 0 30px 0 68px;\n}\n\n\n/*------------------------------------------------------------------\n[ Focus ]*/\n.focus-input100 {\n  display: block;\n  position: absolute;\n  border-radius: 25px;\n  bottom: 0;\n  left: 0;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n  box-shadow: 0px 0px 0px 0px;\n  color: rgba(87,184,70, 0.8);\n}\n\n.input100:focus + .focus-input100 {\n  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;\n  animation: anim-shadow 0.5s ease-in-out forwards;\n}\n\n@-webkit-keyframes anim-shadow {\n  to {\n    box-shadow: 0px 0px 70px 25px;\n    opacity: 0;\n  }\n}\n\n@keyframes anim-shadow {\n  to {\n    box-shadow: 0px 0px 70px 25px;\n    opacity: 0;\n  }\n}\n\n.symbol-input100 {\n  font-size: 15px;\n\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  align-items: center;\n  position: absolute;\n  border-radius: 25px;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  padding-left: 35px;\n  pointer-events: none;\n  color: #666666;\n\n  -webkit-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  transition: all 0.4s;\n}\n\n.input100:focus + .focus-input100 + .symbol-input100 {\n  color: #57b846;\n  padding-left: 28px;\n}\n\n/*------------------------------------------------------------------\n[ Button ]*/\n.container-login100-form-btn {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  padding-top: 20px;\n}\n\n.login100-form-btn {\n  font-family: Montserrat-Bold;\n  font-size: 15px;\n  line-height: 1.5;\n  color: #fff;\n  text-transform: uppercase;\n\n  width: 100%;\n  height: 50px;\n  border-radius: 25px;\n  background: #57b846;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 25px;\n\n  -webkit-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  transition: all 0.4s;\n}\n\n.login100-form-btn:hover {\n  background: #333333;\n}\n\n\n\n/*------------------------------------------------------------------\n[ Responsive ]*/\n\n\n\n@media (max-width: 992px) {\n  .wrap-login100 {\n    padding: 177px 90px 33px 85px;\n  }\n\n  .login100-pic {\n    width: 35%;\n  }\n\n  .login100-form {\n    width: 50%;\n  }\n}\n\n@media (max-width: 768px) {\n  .wrap-login100 {\n    padding: 100px 80px 33px 80px;\n  }\n\n  .login100-pic {\n    display: none;\n  }\n\n  .login100-form {\n    width: 100%;\n  }\n}\n\n@media (max-width: 576px) {\n  .wrap-login100 {\n    padding: 100px 15px 33px 15px;\n  }\n}\n\n\n/*------------------------------------------------------------------\n[ Alert validate ]*/\n\n.validate-input {\n  position: relative;\n}\n\n.alert-validate::before {\n  content: attr(data-validate);\n  position: absolute;\n  max-width: 70%;\n  background-color: white;\n  border: 1px solid #c80000;\n  border-radius: 13px;\n  padding: 4px 25px 4px 10px;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  -moz-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  -o-transform: translateY(-50%);\n  transform: translateY(-50%);\n  right: 8px;\n  pointer-events: none;\n\n  font-family: Poppins-Medium;\n  color: #c80000;\n  font-size: 13px;\n  line-height: 1.4;\n  text-align: left;\n\n  visibility: hidden;\n  opacity: 0;\n\n  -webkit-transition: opacity 0.4s;\n  -o-transition: opacity 0.4s;\n  -moz-transition: opacity 0.4s;\n  transition: opacity 0.4s;\n}\n\n.alert-validate::after {\n  content: \"\\f06a\";\n  font-family: FontAwesome;\n  display: block;\n  position: absolute;\n  color: #c80000;\n  font-size: 15px;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  -moz-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  -o-transform: translateY(-50%);\n  transform: translateY(-50%);\n  right: 13px;\n}\n\n.alert-validate:hover:before {\n  visibility: visible;\n  opacity: 1;\n}\n\n@media (max-width: 992px) {\n  .alert-validate::before {\n    visibility: visible;\n    opacity: 1;\n  }\n}",
 			"file": "static/css/main.css",
+			"file_size": 9120,
+			"file_write_time": 132025391651795490,
 			"settings":
 			{
 				"buffer_size": 8658,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -796,15 +797,16 @@
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/index",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/project",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static",
-		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/css",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/home",
-		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/home/images",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/home/styles",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static_cdn",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates"
 	],
 	"file_history":
 	[
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates/base.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/home/styles/categories_responsive.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/static/home/styles/categories_styles.css",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates/about.html",
 		"/C/Users/BUDESCODE/Documents/coding/projects/Abbey/project/templates/contact.html",
 		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/home/styles/main_styles.css",
@@ -929,9 +931,7 @@
 		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/b use/index.html",
 		"/C/Users/omonbude/Documents/coding/project/Mr. Chuks/b use/css/app.css",
 		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/order/views.py",
-		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-events.html",
-		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-detail.html",
-		"/C/Users/omonbude/Documents/bootstrap1/new 1.html"
+		"/C/Users/omonbude/Documents/coding/project/a treat/website/atreat/templates/comedy-events.html"
 	],
 	"find":
 	{
@@ -960,6 +960,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".navbar_menu li",
+			".navbar_menu",
+			".navbar_",
+			".navbar",
+			"transform",
+			"find",
+			"ques",
+			"menu",
+			"ul.nav",
+			"join n",
+			"minis",
+			"min",
+			"cale",
+			"mini",
+			"cale",
+			"navbar",
+			"navbar-",
+			"navbar-h",
+			"navbar",
+			"url",
+			"sign ",
+			"my produ",
 			"disc",
 			"setti",
 			"setting",
@@ -1065,29 +1087,7 @@
 			"logo_container",
 			"coloshop",
 			"img",
-			"atreat4u",
-			"add_to_cart_button",
-			"product-item",
-			"product-grid",
-			"about",
-			"CART",
-			"myproducts",
-			"payment",
-			"singles_price",
-			"singles",
-			"singledd",
-			"total",
-			"single",
-			"myproducts",
-			"you bid",
-			"music",
-			"checkout",
-			"music",
-			"celeb",
-			"json",
-			"click",
-			"add_meal_cart",
-			"request.post"
+			"atreat4u"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1127,6 +1127,35 @@
 			[
 				{
 					"buffer": 0,
+					"file": "static/home/styles/main_styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9292,
+								9265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7093.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "index/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -1154,48 +1183,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3075,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2024,
-								2024
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 568.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
 					"file": "templates/base2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5477,
+						"buffer_size": 5532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3568,
-								3568
+								3577,
+								3543
 							]
 						],
 						"settings":
@@ -1204,7 +1205,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 754.0,
+						"translation.y": 1397.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1216,15 +1217,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5577,
+						"buffer_size": 5633,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2805,
-								2805
+								4868,
+								4868
 							]
 						],
 						"settings":
@@ -1233,7 +1234,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 692.0,
+						"translation.y": 2014.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
